@@ -1,12 +1,15 @@
 .title{
-	width: 40%;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
 	flex-direction: row;
 	font-family: 'Montserrat', sans-serif;
-
 	flex-basis: 30%;
+
+	padding: 15px 32px;
+	font-size: 2em;
+	color: white;
+	text-shadow: 2px 2px black;
 }
 .buttons{
 	width: 30%;
@@ -18,18 +21,17 @@
 }
 body{
 	font-family: 'Montserrat', sans-serif;
+	background-color: #444444;
 }
 button{
 	border: none;
-	color: blacl;
+	color: white;
+	background-color: black;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: .9em;
 	font-family: 'Montserrat', sans-serif;
-}
-p{
-	padding: 15px 32px;
-	font-size: 2em;
+	border-radius: 3px;
 }
